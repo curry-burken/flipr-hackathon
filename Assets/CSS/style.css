@@ -1,0 +1,283 @@
+*{
+  box-sizing: border-box;
+ }
+
+body{
+ margin: 0px;
+ padding: 0px;
+ background-image: linear-gradient(to bottom right,#0dbdb1,white);
+ background-repeat: no-repeat;
+}
+
+#main{
+ width: 100%;
+ height: 30vh;
+ position: relative;
+}
+
+.nav{
+ display: flex;
+ 
+ align-items: center;
+ position: fixed;
+ top: 0;
+ left: 0;
+ font-size: 1em;
+ height: 125px;
+ width: 100%;
+ background-color: white;
+ box-shadow: 5px 10px 30px rgba(0,0,0,0.4);
+ z-index: 1;
+ margin-right: 60%;
+}
+
+#title {
+ /*background-color: #07e4d2;*/
+ color: #fff;
+ padding-bottom: 7%;
+}
+
+#title .container-fluid {
+ padding: 3% 15% 7%;
+}
+
+.logo img{
+ height: 100px;
+ align-items:left;
+ margin-left: 5%;
+ position: relative;
+}
+
+
+.menu{
+ list-style: none;
+ display: flex;
+ margin-left: 65%;
+ position: fixed;
+}
+
+.menu li a{
+ height: 40px;
+ line-height: 43px;
+ margin: 3px;
+ padding: 0px 22px;
+ display: flex;
+ font-size: 0.8em;
+ text-transform: uppercase;
+ font-weight: bold;
+ letter-spacing: 1px;
+ color: white;
+ background-color: #82ba2d;
+ border: 2px solid indigo;
+ border-radius: 6px;
+}
+
+.menu li a:hover{
+ background-color: white;
+ color: black;
+ font-weight: bolder;
+ cursor: pointer;
+}
+
+a{
+ text-decoration: none;
+}
+
+.social{
+ list-style: none;
+ display: flex;
+ margin-left: 100%;
+ font-weight: bold;
+}
+
+.social li{
+ display: inline;
+ padding: 0.5rem;
+}
+
+.name{
+ font-weight: bold;
+}
+
+.github img{
+ height: 45px;
+}
+
+.linkedin img{
+ height: 55px;
+}
+
+.creator{
+ margin-left: 0;
+}
+
+ #footer {
+    
+    /*background-color: #0779e4;*/
+    padding: 7% 15%;
+    color: black;
+    text-align: center;
+  }
+
+
+#footer .container-fluid {
+    padding: 10% 15% 10%;
+  }
+
+.contact{
+ text-align: center!important;
+}
+
+.image img{
+ height: 300px;
+}
+
+.main-content{
+ display: flex;
+ justify-content: space-around;
+}
+
+.main-content2{
+ display: flex;
+ justify-content: space-around;
+}
+
+.line{
+ font-family: 'Serif';
+ font-size: 40px;
+}
+
+.heading{
+ font-family: 'Sans Serif';
+ font-size: 50px;
+}
+
+.start{
+ font-family: 'Reggae One';
+ background-color: #82ba2d;
+ color: white;
+ padding: 15px 45px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ border: 2px solid indigo;
+ border-radius: 6px;
+ box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.start:hover{
+ background-color: whitesmoke;
+ color: blueviolet;
+ border: 2px solid black;
+ cursor: pointer;
+}
+
+.github img:hover{
+ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+ -moz-opacity: 0.5;
+ opacity: 0.5;
+ box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.linkedin img:hover{
+ filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+ -moz-opacity: 0.5;
+ opacity: 0.5;
+ box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.line1{
+ display: flex;
+ font-family: 'Itim';
+ font-size: 35px;
+}
+
+.line2{
+ display: flex;
+ font-family: 'Itim';
+ font-size: 35px;
+}
+
+.line3{
+ display: flex;
+ font-family: 'Itim';
+ font-size: 40px;
+ justify-content: space-around;
+}
+
+
+
+
+
+
+
+.my-info{
+    justify-content: space-around;
+    padding: 0;
+    text-align: center!important;
+    margin-bottom: 1rem;
+    font-family: 'Itim';
+    font-weight: 400;
+    line-height: 1.2px;
+  }
+  
+  .btn{
+    font-family: 'Itim', cursive;
+    background-color: rgb(76, 43, 226);
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid indigo;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .btn:hover{
+    background-color: rgba(131, 0, 253, 0.623);
+  }
+  
+  .table{
+    border-collapse: collapse;
+      margin: 20px auto 0 auto;
+      font-size: 0.9em;
+      min-width: 400px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+  
+  .table thead tr{
+    background-color: rgb(39, 247, 126);
+      color: white;
+      text-align: left;
+      font-weight: bold;
+  }
+  
+  .table th,
+  .table td{
+    padding: 5px 70px;
+  }
+  
+  .table tbody tr{
+    border-bottom: 1px solid black;
+  }
+  
+  .table tbody tr:nth-of-type(odd){
+    background-color: greenyellow;
+  }
+  
+  .table tr:nth-of-type(even){
+    background-color: rgb(216, 34, 34);
+  }
+  
+  tr{
+    cursor: pointer;
+  }
+  
+  .table tbody tr:hover{
+    background-color: whitesmoke;
+  }
